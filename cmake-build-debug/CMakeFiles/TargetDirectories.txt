@@ -1,0 +1,3 @@
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles/Strassen.dir
