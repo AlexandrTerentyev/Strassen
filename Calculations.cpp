@@ -6,7 +6,7 @@
 #include "Strassen.h"
 #include "HelpFunctions.h"
 
-const int STRASSEN_RECURSION_MATRIX_SIZE_TRESHOLD = 1024;
+const int STRASSEN_RECURSION_MATRIX_SIZE_TRESHOLD = 2048;
 const bool ALLOW_RECURSION = true;
 
 double** add (int size, double** A, double** B){
