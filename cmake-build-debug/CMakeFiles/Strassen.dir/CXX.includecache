@@ -7,10 +7,18 @@
 #IncludeRegexTransform: 
 
 /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.cpp
+iostream
+-
+
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.h
 
 /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/main.cpp
 iostream
 -
-omp.h
+thread
 -
+future
+-
+HelperFunctions.h
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.h
 

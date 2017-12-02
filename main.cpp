@@ -3,11 +3,6 @@
 #include <future>
 #include "HelperFunctions.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
-
 const int THREADS_NUM = 4;
 
 double** strassenProduct (int size, double** A, double** B){
@@ -31,7 +26,7 @@ double** strassenProduct (int size, double** A, double** B){
     //Group2
     int quarterSize = size/2;
     resS1 = std::async(S1, resT1.get(), resT2.get(), quarterSize);
-    resS2 = std::async(S2, resT3.get(), quarter(B,size, 0, 0));
+    resS2 = std::async(S2, resT3.get(), quarter(B,size, 0, 0), quarterSize);
     resS3 = std::async(S3, quarter(A, size, 0, 0), resT4.get(), quarterSize);
     resS4 = std::async(S4, quarter(A, size, 1, 1), resT5.get(), quarterSize);
     resS5 = std::async(S5, resT6.get(), quarter(B, size, 1,1), quarterSize);
@@ -56,7 +51,7 @@ double** strassenProduct (int size, double** A, double** B){
     double ** t12 = resT12.get();
     double ** t15 = resT15.get();
     double ** t18 = resT18.get();
-    double res [size][size];
+    double** res = createMatrix(size);
     for (int i = 0; i < quarterSize; i++){
         for (int j =0; j < quarterSize; j ++){
             res [i][j] = t15[i][j];
@@ -65,6 +60,23 @@ double** strassenProduct (int size, double** A, double** B){
             res [i+quarterSize][j+quarterSize] = t18[i][j];
         }
     }
-    return static_cast<double **>(res);
+    return res;
 }
 
+
+int main() {
+    int size = 2;
+    double** A = createMatrix(size);
+    double** B = createMatrix(size);
+    for (int i = 0; i < size; i++){
+        for (int j = 0; j < size; j ++){
+            A[i][j] = rand()%10;
+            B[i][j] = rand()%10;
+        }
+    }
+    printMatrx(A, size);
+    printMatrx(B, size);
+    double ** res = strassenProduct(size , A, B);
+    printMatrx(res, size);
+    return 0;
+}

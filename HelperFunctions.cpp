@@ -2,24 +2,44 @@
 // Created by Aleksandr Terentev on 02.12.17.
 //
 
+#include <iostream>
+
+void printMatrx (double** A, int size){
+    std::cout<<"\n\n[";
+    for (int i = 0; i < size; i++){
+        std::cout<<"\n\t";
+        for (int j = 0; j < size; j++){
+            std::cout<< A[i][j]<<" ";
+        }
+    }
+    std::cout<<"\n]";
+}
+
+double** createMatrix (int size){
+    double ** res = new double*[size];
+    for (int i = 0; i < size; i++){
+        res [i] = new double [size];
+    }
+    return res;
+}
 
 double** add (int size, double** A, double** B){
-    double C [size][size];
-    C = new double [size][size];
+    double** C = createMatrix(size);
     for (int i = 0; i < size; i++){
         for (int j = 0; j < size; j++){
             C[i][j] = A[i][j] + B [i][j];
         }
     }
+    return C;
 }
 
 double ** product (int size, double** A, double** B){
-    double C [size][size];
+    double** C = createMatrix(size);
     for (int i = 0; i < size; i++){
         for (int j = 0; j < size; j++){
             double sum = 0.0;
             for (int z = 0; z < size; z++){
-                sum += A[i][z] + B [z][j];
+                sum += A[i][z] * B [z][j];
             }
             C[i][j] = sum;
         }
@@ -28,21 +48,21 @@ double ** product (int size, double** A, double** B){
 }
 
 double** diff (int size, double** A, double** B){
-    double C [size][size];
-    C = new double [size][size];
+    double** C = createMatrix(size);
     for (int i = 0; i < size; i++){
         for (int j = 0; j < size; j++){
             C[i][j] = A[i][j] - B [i][j];
         }
     }
+    return C;
 }
 
 double quarter(double **A, int size, int blockRow, int blockCol, int i, int j){
-    return A [blockRow*size/2 + i][blockCol*size/2];
+    return A [blockRow*size/2 + i][blockCol*size/2 + j];
 }
 
 double** quarter(double **A, int size, int blockRow, int blockCol){
-    double C [size/2][size/2];
+    double** C = createMatrix(size/2);
     for (int i = 0; i < size/2; i ++){
         for (int j = 0; j < size/2; j++){
             C[i][j] = A [i + size/2*blockRow] [j + size/2 * blockCol];
@@ -52,9 +72,9 @@ double** quarter(double **A, int size, int blockRow, int blockCol){
 }
 
 double** addQuarters (int size, double** A, int blockRowA, int blockColA, double** B, int blockRowB, int blockColB){
-    double C [size/2][size/2];
-    for (int i = 0; i < size; i++){
-        for (int j = 0; j < size; j++){
+    double** C = createMatrix(size/2);
+    for (int i = 0; i < size/2; i++){
+        for (int j = 0; j < size/2; j++){
             C[i][j] = quarter(A, size, blockRowA, blockColA, i, j) + quarter(B, size, blockRowB, blockColB, i, j);
         }
     }
@@ -62,9 +82,9 @@ double** addQuarters (int size, double** A, int blockRowA, int blockColA, double
 }
 
 double** diffQuarters (int size, double** A, int blockRowA, int blockColA, double** B, int blockRowB, int blockColB){
-    double C [size/2][size/2];
-    for (int i = 0; i < size; i++){
-        for (int j = 0; j < size; j++){
+    double** C = createMatrix(size/2);
+    for (int i = 0; i < size/2; i++){
+        for (int j = 0; j < size/2; j++){
             C[i][j] = quarter(A, size, blockRowA, blockColA, i, j) - quarter(B, size, blockRowB, blockColB, i, j);
         }
     }
@@ -73,7 +93,7 @@ double** diffQuarters (int size, double** A, int blockRowA, int blockColA, doubl
 
 
 double** productQuarters (int size, double** A, int blockRowA, int blockColA, double** B, int blockRowB, int blockColB){
-    double **C = new double [size/2][size/2];
+    double** C = createMatrix(size/2);
     for (int i = 0; i < size/2; i++){
         for (int j = 0; j < size/2; j++){
             double sum = 0.0;
@@ -170,16 +190,16 @@ double** T14 (double** S7, double** S5, int size){
     return diff(size, S7, S5);
 }
 
-double** T15 (double** T11, double** T14, int size){
-    return add(size, T11, T14);
-}
-
 double** T16 (double** S3, double** S5, int size){
     return add(size, S3, S5);
 }
 
 double** T17 (double** S1, double** S2, int size){
     return diff(size, S1, S2);
+}
+
+double** T15 (double** T11, double** T14, int size){
+    return add(size, T11, T14);
 }
 
 double** T18 (double** T13, double** T17, int size){

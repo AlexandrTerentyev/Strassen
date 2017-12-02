@@ -3,5 +3,6 @@
 
 CMakeFiles/Strassen.dir/HelperFunctions.cpp.o: ../HelperFunctions.cpp
 
+CMakeFiles/Strassen.dir/main.cpp.o: ../HelperFunctions.h
 CMakeFiles/Strassen.dir/main.cpp.o: ../main.cpp
 
