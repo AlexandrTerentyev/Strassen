@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.cpp">
+		<Unit filename="/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Calculations.cpp">
 			<Option target="Strassen"/>
 		</Unit>
-		<Unit filename="/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.h">
+		<Unit filename="/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Calculations.h">
+			<Option target="Strassen"/>
+		</Unit>
+		<Unit filename="/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.cpp">
+			<Option target="Strassen"/>
+		</Unit>
+		<Unit filename="/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.h">
+			<Option target="Strassen"/>
+		</Unit>
+		<Unit filename="/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.cpp">
+			<Option target="Strassen"/>
+		</Unit>
+		<Unit filename="/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.h">
 			<Option target="Strassen"/>
 		</Unit>
 		<Unit filename="/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/main.cpp">

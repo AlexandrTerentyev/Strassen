@@ -8,8 +8,6 @@
 // Created by Aleksandr Terentev on 02.12.17.
 //
 
-double** createMatrix (int size);
-void printMatrx (double** A, int size);
 double** add (int size, double** A, double** B);
 double** diff (int size, double** A, double** B);
 double ** product (int size, double** A, double** B);

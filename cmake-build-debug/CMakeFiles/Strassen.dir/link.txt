@@ -1,1 +1,1 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Strassen.dir/main.cpp.o CMakeFiles/Strassen.dir/HelperFunctions.cpp.o  -o Strassen 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Strassen.dir/main.cpp.o CMakeFiles/Strassen.dir/Calculations.cpp.o CMakeFiles/Strassen.dir/Strassen.cpp.o CMakeFiles/Strassen.dir/HelpFunctions.cpp.o  -o Strassen 

@@ -81,43 +81,95 @@ CMakeFiles/Strassen.dir/main.cpp.o.provides: CMakeFiles/Strassen.dir/main.cpp.o.
 CMakeFiles/Strassen.dir/main.cpp.o.provides.build: CMakeFiles/Strassen.dir/main.cpp.o
 
 
-CMakeFiles/Strassen.dir/HelperFunctions.cpp.o: CMakeFiles/Strassen.dir/flags.make
-CMakeFiles/Strassen.dir/HelperFunctions.cpp.o: ../HelperFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Strassen.dir/HelperFunctions.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Strassen.dir/HelperFunctions.cpp.o -c /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.cpp
+CMakeFiles/Strassen.dir/Calculations.cpp.o: CMakeFiles/Strassen.dir/flags.make
+CMakeFiles/Strassen.dir/Calculations.cpp.o: ../Calculations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Strassen.dir/Calculations.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Strassen.dir/Calculations.cpp.o -c /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Calculations.cpp
 
-CMakeFiles/Strassen.dir/HelperFunctions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Strassen.dir/HelperFunctions.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.cpp > CMakeFiles/Strassen.dir/HelperFunctions.cpp.i
+CMakeFiles/Strassen.dir/Calculations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Strassen.dir/Calculations.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Calculations.cpp > CMakeFiles/Strassen.dir/Calculations.cpp.i
 
-CMakeFiles/Strassen.dir/HelperFunctions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Strassen.dir/HelperFunctions.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.cpp -o CMakeFiles/Strassen.dir/HelperFunctions.cpp.s
+CMakeFiles/Strassen.dir/Calculations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Strassen.dir/Calculations.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Calculations.cpp -o CMakeFiles/Strassen.dir/Calculations.cpp.s
 
-CMakeFiles/Strassen.dir/HelperFunctions.cpp.o.requires:
+CMakeFiles/Strassen.dir/Calculations.cpp.o.requires:
 
-.PHONY : CMakeFiles/Strassen.dir/HelperFunctions.cpp.o.requires
+.PHONY : CMakeFiles/Strassen.dir/Calculations.cpp.o.requires
 
-CMakeFiles/Strassen.dir/HelperFunctions.cpp.o.provides: CMakeFiles/Strassen.dir/HelperFunctions.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/HelperFunctions.cpp.o.provides.build
-.PHONY : CMakeFiles/Strassen.dir/HelperFunctions.cpp.o.provides
+CMakeFiles/Strassen.dir/Calculations.cpp.o.provides: CMakeFiles/Strassen.dir/Calculations.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/Calculations.cpp.o.provides.build
+.PHONY : CMakeFiles/Strassen.dir/Calculations.cpp.o.provides
 
-CMakeFiles/Strassen.dir/HelperFunctions.cpp.o.provides.build: CMakeFiles/Strassen.dir/HelperFunctions.cpp.o
+CMakeFiles/Strassen.dir/Calculations.cpp.o.provides.build: CMakeFiles/Strassen.dir/Calculations.cpp.o
+
+
+CMakeFiles/Strassen.dir/Strassen.cpp.o: CMakeFiles/Strassen.dir/flags.make
+CMakeFiles/Strassen.dir/Strassen.cpp.o: ../Strassen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Strassen.dir/Strassen.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Strassen.dir/Strassen.cpp.o -c /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.cpp
+
+CMakeFiles/Strassen.dir/Strassen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Strassen.dir/Strassen.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.cpp > CMakeFiles/Strassen.dir/Strassen.cpp.i
+
+CMakeFiles/Strassen.dir/Strassen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Strassen.dir/Strassen.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.cpp -o CMakeFiles/Strassen.dir/Strassen.cpp.s
+
+CMakeFiles/Strassen.dir/Strassen.cpp.o.requires:
+
+.PHONY : CMakeFiles/Strassen.dir/Strassen.cpp.o.requires
+
+CMakeFiles/Strassen.dir/Strassen.cpp.o.provides: CMakeFiles/Strassen.dir/Strassen.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/Strassen.cpp.o.provides.build
+.PHONY : CMakeFiles/Strassen.dir/Strassen.cpp.o.provides
+
+CMakeFiles/Strassen.dir/Strassen.cpp.o.provides.build: CMakeFiles/Strassen.dir/Strassen.cpp.o
+
+
+CMakeFiles/Strassen.dir/HelpFunctions.cpp.o: CMakeFiles/Strassen.dir/flags.make
+CMakeFiles/Strassen.dir/HelpFunctions.cpp.o: ../HelpFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Strassen.dir/HelpFunctions.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Strassen.dir/HelpFunctions.cpp.o -c /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.cpp
+
+CMakeFiles/Strassen.dir/HelpFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Strassen.dir/HelpFunctions.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.cpp > CMakeFiles/Strassen.dir/HelpFunctions.cpp.i
+
+CMakeFiles/Strassen.dir/HelpFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Strassen.dir/HelpFunctions.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.cpp -o CMakeFiles/Strassen.dir/HelpFunctions.cpp.s
+
+CMakeFiles/Strassen.dir/HelpFunctions.cpp.o.requires:
+
+.PHONY : CMakeFiles/Strassen.dir/HelpFunctions.cpp.o.requires
+
+CMakeFiles/Strassen.dir/HelpFunctions.cpp.o.provides: CMakeFiles/Strassen.dir/HelpFunctions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/HelpFunctions.cpp.o.provides.build
+.PHONY : CMakeFiles/Strassen.dir/HelpFunctions.cpp.o.provides
+
+CMakeFiles/Strassen.dir/HelpFunctions.cpp.o.provides.build: CMakeFiles/Strassen.dir/HelpFunctions.cpp.o
 
 
 # Object files for target Strassen
 Strassen_OBJECTS = \
 "CMakeFiles/Strassen.dir/main.cpp.o" \
-"CMakeFiles/Strassen.dir/HelperFunctions.cpp.o"
+"CMakeFiles/Strassen.dir/Calculations.cpp.o" \
+"CMakeFiles/Strassen.dir/Strassen.cpp.o" \
+"CMakeFiles/Strassen.dir/HelpFunctions.cpp.o"
 
 # External object files for target Strassen
 Strassen_EXTERNAL_OBJECTS =
 
 Strassen: CMakeFiles/Strassen.dir/main.cpp.o
-Strassen: CMakeFiles/Strassen.dir/HelperFunctions.cpp.o
+Strassen: CMakeFiles/Strassen.dir/Calculations.cpp.o
+Strassen: CMakeFiles/Strassen.dir/Strassen.cpp.o
+Strassen: CMakeFiles/Strassen.dir/HelpFunctions.cpp.o
 Strassen: CMakeFiles/Strassen.dir/build.make
 Strassen: CMakeFiles/Strassen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Strassen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Strassen"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Strassen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,7 +178,9 @@ CMakeFiles/Strassen.dir/build: Strassen
 .PHONY : CMakeFiles/Strassen.dir/build
 
 CMakeFiles/Strassen.dir/requires: CMakeFiles/Strassen.dir/main.cpp.o.requires
-CMakeFiles/Strassen.dir/requires: CMakeFiles/Strassen.dir/HelperFunctions.cpp.o.requires
+CMakeFiles/Strassen.dir/requires: CMakeFiles/Strassen.dir/Calculations.cpp.o.requires
+CMakeFiles/Strassen.dir/requires: CMakeFiles/Strassen.dir/Strassen.cpp.o.requires
+CMakeFiles/Strassen.dir/requires: CMakeFiles/Strassen.dir/HelpFunctions.cpp.o.requires
 
 .PHONY : CMakeFiles/Strassen.dir/requires
 

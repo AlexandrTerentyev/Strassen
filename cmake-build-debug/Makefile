@@ -123,32 +123,86 @@ Strassen/fast:
 	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/build
 .PHONY : Strassen/fast
 
-HelperFunctions.o: HelperFunctions.cpp.o
+Calculations.o: Calculations.cpp.o
 
-.PHONY : HelperFunctions.o
+.PHONY : Calculations.o
 
 # target to build an object file
-HelperFunctions.cpp.o:
-	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/HelperFunctions.cpp.o
-.PHONY : HelperFunctions.cpp.o
+Calculations.cpp.o:
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/Calculations.cpp.o
+.PHONY : Calculations.cpp.o
 
-HelperFunctions.i: HelperFunctions.cpp.i
+Calculations.i: Calculations.cpp.i
 
-.PHONY : HelperFunctions.i
+.PHONY : Calculations.i
 
 # target to preprocess a source file
-HelperFunctions.cpp.i:
-	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/HelperFunctions.cpp.i
-.PHONY : HelperFunctions.cpp.i
+Calculations.cpp.i:
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/Calculations.cpp.i
+.PHONY : Calculations.cpp.i
 
-HelperFunctions.s: HelperFunctions.cpp.s
+Calculations.s: Calculations.cpp.s
 
-.PHONY : HelperFunctions.s
+.PHONY : Calculations.s
 
 # target to generate assembly for a file
-HelperFunctions.cpp.s:
-	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/HelperFunctions.cpp.s
-.PHONY : HelperFunctions.cpp.s
+Calculations.cpp.s:
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/Calculations.cpp.s
+.PHONY : Calculations.cpp.s
+
+HelpFunctions.o: HelpFunctions.cpp.o
+
+.PHONY : HelpFunctions.o
+
+# target to build an object file
+HelpFunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/HelpFunctions.cpp.o
+.PHONY : HelpFunctions.cpp.o
+
+HelpFunctions.i: HelpFunctions.cpp.i
+
+.PHONY : HelpFunctions.i
+
+# target to preprocess a source file
+HelpFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/HelpFunctions.cpp.i
+.PHONY : HelpFunctions.cpp.i
+
+HelpFunctions.s: HelpFunctions.cpp.s
+
+.PHONY : HelpFunctions.s
+
+# target to generate assembly for a file
+HelpFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/HelpFunctions.cpp.s
+.PHONY : HelpFunctions.cpp.s
+
+Strassen.o: Strassen.cpp.o
+
+.PHONY : Strassen.o
+
+# target to build an object file
+Strassen.cpp.o:
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/Strassen.cpp.o
+.PHONY : Strassen.cpp.o
+
+Strassen.i: Strassen.cpp.i
+
+.PHONY : Strassen.i
+
+# target to preprocess a source file
+Strassen.cpp.i:
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/Strassen.cpp.i
+.PHONY : Strassen.cpp.i
+
+Strassen.s: Strassen.cpp.s
+
+.PHONY : Strassen.s
+
+# target to generate assembly for a file
+Strassen.cpp.s:
+	$(MAKE) -f CMakeFiles/Strassen.dir/build.make CMakeFiles/Strassen.dir/Strassen.cpp.s
+.PHONY : Strassen.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Strassen"
-	@echo "... HelperFunctions.o"
-	@echo "... HelperFunctions.i"
-	@echo "... HelperFunctions.s"
+	@echo "... Calculations.o"
+	@echo "... Calculations.i"
+	@echo "... Calculations.s"
+	@echo "... HelpFunctions.o"
+	@echo "... HelpFunctions.i"
+	@echo "... HelpFunctions.s"
+	@echo "... Strassen.o"
+	@echo "... Strassen.i"
+	@echo "... Strassen.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

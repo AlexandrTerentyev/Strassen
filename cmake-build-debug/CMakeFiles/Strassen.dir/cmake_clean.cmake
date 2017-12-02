@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Strassen.dir/main.cpp.o"
-  "CMakeFiles/Strassen.dir/HelperFunctions.cpp.o"
+  "CMakeFiles/Strassen.dir/Calculations.cpp.o"
+  "CMakeFiles/Strassen.dir/Strassen.cpp.o"
+  "CMakeFiles/Strassen.dir/HelpFunctions.cpp.o"
   "Strassen.pdb"
   "Strassen"
 )

@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.cpp" "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles/Strassen.dir/HelperFunctions.cpp.o"
+  "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Calculations.cpp" "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles/Strassen.dir/Calculations.cpp.o"
+  "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.cpp" "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles/Strassen.dir/HelpFunctions.cpp.o"
+  "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.cpp" "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles/Strassen.dir/Strassen.cpp.o"
   "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/main.cpp" "/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/cmake-build-debug/CMakeFiles/Strassen.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

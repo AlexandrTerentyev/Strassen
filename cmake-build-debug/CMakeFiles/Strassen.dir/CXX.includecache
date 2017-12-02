@@ -6,19 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.cpp
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Calculations.cpp
+iostream
+-
+Strassen.h
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.h
+HelpFunctions.h
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.h
+
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Calculations.h
+
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.cpp
 iostream
 -
 
-/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.h
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.h
+iostream
+-
+
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.cpp
+future
+-
+string.h
+-
+Calculations.h
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Calculations.h
+HelpFunctions.h
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.h
+
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.h
 
 /Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/main.cpp
 iostream
 -
-thread
--
-future
--
-HelperFunctions.h
-/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelperFunctions.h
+Strassen.h
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/Strassen.h
+HelpFunctions.h
+/Users/alexandrterentyev/Unic/ParallelProgramming/Strassen/HelpFunctions.h
 
